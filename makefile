@@ -7,7 +7,7 @@ README.md: guessinggame.sh
 	@echo "" >> README.md
 	@echo "**Date et heure de génération :** $$(date '+%Y-%m-%d à %H:%M:%S')" >> README.md
 	@echo "" >> README.md
-	@echo "**Nombre de lignes de code dans guessinggame.sh :** $$(wc -l < guessinggame.sh | tr -d ' ')" >> README.md
+	@echo "**Nombre de lignes de code dans guessinggame.sh :** $$(wc -l < guessinggame.sh)" >> README.md
 	@echo "" >> README.md
 	@echo "## Description" >> README.md
 	@echo "Ce projet est un jeu de devinettes en Bash où le joueur doit trouver le nombre de fichiers dans le répertoire courant." >> README.md
