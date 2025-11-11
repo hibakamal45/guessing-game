@@ -14,8 +14,6 @@ README.md: guessinggame.sh
 	@echo "" >> README.md
 	@echo "## Comment jouer" >> README.md
 	@echo "Exécutez la commande : \`bash guessinggame.sh\`" >> README.md
-	@echo "" >> README.md
-	@echo "Le programme vous guidera jusqu'à ce que vous trouviez le bon nombre !" >> README.md
 
 clean:
 	rm -f README.md
